@@ -278,7 +278,7 @@ figure {
   text-align: center; }
 
   #user-grade{
-    font-size: 4rem;
+    font-size: 5rem;
     padding-top: 25px;
     /* color: green; */
   }
@@ -599,7 +599,13 @@ label.valid {
     padding: 0 30px; }
 
   .form-title {
-    text-align: center; } }
+    text-align: center; }
+  
+    #user-grade{
+      font-size: 4rem;
+      padding-top: 25px;    }
+
+  }
 @media screen and (max-width: 400px) {
   .social-login {
     flex-direction: column;
